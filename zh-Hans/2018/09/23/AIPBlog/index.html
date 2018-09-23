@@ -108,20 +108,26 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="笔记备份站">
-<meta property="og:url" content="https://lisachensyd.github.io/zh-Hans/index.html">
+  <meta name="description" content="A simple example of Express + MongoDbIntroductionNode.js is a JavaScript runtime environment. It is a popular and perfect way to run data intensive real-time applications across distributed devices.Ex">
+<meta property="og:type" content="article">
+<meta property="og:title" content="A simple example of Express + MongoDb">
+<meta property="og:url" content="https://lisachensyd.github.io/zh-Hans/2018/09/23/AIPBlog/index.html">
 <meta property="og:site_name" content="笔记备份站">
-<meta property="og:locale" content="en">
+<meta property="og:description" content="A simple example of Express + MongoDbIntroductionNode.js is a JavaScript runtime environment. It is a popular and perfect way to run data intensive real-time applications across distributed devices.Ex">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://i.loli.net/2018/09/23/5ba688f241853.png">
+<meta property="og:updated_time" content="2018-09-23T09:12:20.675Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="笔记备份站">
+<meta name="twitter:title" content="A simple example of Express + MongoDb">
+<meta name="twitter:description" content="A simple example of Express + MongoDbIntroductionNode.js is a JavaScript runtime environment. It is a popular and perfect way to run data intensive real-time applications across distributed devices.Ex">
+<meta name="twitter:image" content="https://i.loli.net/2018/09/23/5ba688f241853.png">
 
 
 
 
 
 
-  <link rel="canonical" href="https://lisachensyd.github.io/zh-Hans/"/>
+  <link rel="canonical" href="https://lisachensyd.github.io/zh-Hans/2018/09/23/AIPBlog/"/>
 
 
 
@@ -131,7 +137,7 @@
   };
 </script>
 
-  <title>笔记备份站</title>
+  <title>A simple example of Express + MongoDb | 笔记备份站</title>
   
 
 
@@ -171,15 +177,14 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -299,9 +304,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -316,7 +321,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lisachensyd.github.io/2018/09/23/AIPBlog/">
+    <link itemprop="mainEntityOfPage" href="https://lisachensyd.github.io/zh-Hans/2018/09/23/AIPBlog/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Lisa Chen">
@@ -333,11 +338,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/09/23/AIPBlog/" itemprop="url">
-                  A simple example of Express + MongoDb
-                </a>
+          <h1 class="post-title" itemprop="name headline">A simple example of Express + MongoDb
               
             
           </h1>
@@ -400,18 +401,25 @@
       
 
       
-        
-          
-          A simple example of Express + MongoDbIntroductionNode.js is a JavaScript runtime environment. It is a popular and perfect way to run data intensive real-time applications across distributed devices.Ex
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/09/23/AIPBlog/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+        <h1 id="A-simple-example-of-Express-MongoDb"><a href="#A-simple-example-of-Express-MongoDb" class="headerlink" title="A simple example of Express + MongoDb"></a>A simple example of Express + MongoDb</h1><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a> is a JavaScript runtime environment. It is a popular and perfect way to run data intensive real-time applications across distributed devices.<br><a href="https://expressjs.com/" target="_blank" rel="noopener">Express.JS</a> is a popular Node.js framework for building web services and applications.<br><a href="https://www.mongodb.com/" target="_blank" rel="noopener">MongoDb</a> is a cross-platform document-oriented database. It is classified as NoSQL and uses JSON like documents with schemata.</p>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>This tutorial gives you a simple example of connecting express with mongodb database and display the data on the page.<br><img src="https://i.loli.net/2018/09/23/5ba688f241853.png" alt=""></p>
+<h2 id="1-Install-node-js-and-npm"><a href="#1-Install-node-js-and-npm" class="headerlink" title="1. Install node.js and npm"></a>1. Install node.js and npm</h2><p>Follow the instructions on <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node.js download</a> website and download the suitable installer for your computer.</p>
+<h2 id="2-Install-MongoDb"><a href="#2-Install-MongoDb" class="headerlink" title="2. Install MongoDb"></a>2. Install MongoDb</h2><p>Follow the instructions and download MongoDb community server from <a href="https://www.mongodb.com/download-center#community" target="_blank" rel="noopener">MongoDb download center</a>.</p>
+<h2 id="3-Start-the-MongoDb-server-and-client"><a href="#3-Start-the-MongoDb-server-and-client" class="headerlink" title="3. Start the MongoDb server and client"></a>3. Start the MongoDb server and client</h2><h4 id="Start-the-server-using"><a href="#Start-the-server-using" class="headerlink" title="Start the server using*"></a>Start the server using*</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\lisa1&gt;mongod</span><br></pre></td></tr></table></figure>
+<h4 id="Start-the-client-using"><a href="#Start-the-client-using" class="headerlink" title="Start the client using*"></a>Start the client using*</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\lisa1&gt;mongo</span><br></pre></td></tr></table></figure>
+<h5 id="Run-these-commands-in-two-separate-command-window"><a href="#Run-these-commands-in-two-separate-command-window" class="headerlink" title="Run these commands in two separate command window."></a>Run these commands in two separate command window.</h5><p>*For Windows users, add mongo’s bin folder to your path environment variables. Detailed instructions can be found  <a href="https://dangphongvanthanh.wordpress.com/2017/06/12/add-mongos-bin-folder-to-the-path-environment-variable/" target="_blank" rel="noopener">here</a>.  </p>
+<h2 id="4-Create-and-insert-data-into-the-database"><a href="#4-Create-and-insert-data-into-the-database" class="headerlink" title="4. Create and insert data into the database"></a>4. Create and insert data into the database</h2><p>In your command window which runs the <code>mongo</code> command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">//create a database called &apos;blog&apos;</span><br><span class="line">&gt; use blog           </span><br><span class="line">switched to db blog</span><br><span class="line"></span><br><span class="line">//Insert the data into the database, this will also create the collection if it doesn&apos;t exit.</span><br><span class="line">&gt;db.users.insert(&#123;&quot;name&quot;:&quot;Name&quot;,&quot;email&quot;:&quot;youremail@example.com&quot;,&quot;age&quot;:&quot;20&quot;&#125;)</span><br><span class="line"></span><br><span class="line">//View the data</span><br><span class="line">db.users.find()</span><br><span class="line">&#123; &quot;_id&quot; : ObjectId(&quot;5ba67ecce973e7f30e427a8e&quot;), &quot;name&quot; : &quot;name&quot;, &quot;email&quot; : &quot;your@example.com&quot;, &quot;age&quot; : &quot;20&quot; &#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="5-Install-express-using-npm-and-generate-a-project"><a href="#5-Install-express-using-npm-and-generate-a-project" class="headerlink" title="5. Install express using npm and generate a project"></a>5. Install express using npm and generate a project</h2><p>Install express globally<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install express -g</span><br></pre></td></tr></table></figure></p>
+<p>Install express-generator globally<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install express-generator -g</span><br></pre></td></tr></table></figure></p>
+<p>Create a express project called ‘blog’ under current directory and use ejs template<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">express -e blog</span><br></pre></td></tr></table></figure></p>
+<p>Change your working directory into that folder and install all dependencies<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd blog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
+<p>Run your project<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm start</span><br></pre></td></tr></table></figure></p>
+<p>Check the result in your browser window, default URL is <code>http://localhost:3000/</code></p>
+<h2 id="6-Install-Mongoose"><a href="#6-Install-Mongoose" class="headerlink" title="6. Install Mongoose"></a>6. Install Mongoose</h2><p><a href="https://www.npmjs.com/package/mongoose" target="_blank" rel="noopener">Mongoose</a> is a MongoDB object modelling tool.<br>Install mongoose and save it to the dependency list.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install mongoose --save</span><br></pre></td></tr></table></figure></p>
+<p>Check your <code>package.json</code> file to make sure you have all required packages<br><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"name"</span>: <span class="string">"blog"</span>,</span><br><span class="line">  <span class="attr">"version"</span>: <span class="string">"0.0.0"</span>,</span><br><span class="line">  <span class="attr">"private"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"scripts"</span>: &#123;</span><br><span class="line">    <span class="attr">"start"</span>: <span class="string">"node ./bin/www"</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">"dependencies"</span>: &#123;</span><br><span class="line">    <span class="attr">"cookie-parser"</span>: <span class="string">"~1.4.3"</span>,</span><br><span class="line">    <span class="attr">"debug"</span>: <span class="string">"~2.6.9"</span>,</span><br><span class="line">    <span class="attr">"ejs"</span>: <span class="string">"~2.5.7"</span>,</span><br><span class="line">    <span class="attr">"express"</span>: <span class="string">"~4.16.0"</span>,</span><br><span class="line">    <span class="attr">"http-errors"</span>: <span class="string">"~1.6.2"</span>,</span><br><span class="line">    <span class="attr">"mongoose"</span>: <span class="string">"^5.2.17"</span>,</span><br><span class="line">    <span class="attr">"morgan"</span>: <span class="string">"~1.9.0"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="6-Connect-Express-with-MongoDb"><a href="#6-Connect-Express-with-MongoDb" class="headerlink" title="6. Connect Express with MongoDb"></a>6. Connect Express with MongoDb</h2><h4 id="Modify-routes-index-js"><a href="#Modify-routes-index-js" class="headerlink" title="Modify routes/index.js"></a>Modify <code>routes/index.js</code></h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">var</span> router = express.Router();</span><br><span class="line"></span><br><span class="line"><span class="comment">//mongodb</span></span><br><span class="line"><span class="keyword">var</span> mongoose = <span class="built_in">require</span>(<span class="string">'mongoose'</span>);</span><br><span class="line">mongoose.Promise = global.Promise;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> conn = mongoose.connect(<span class="string">'mongodb://127.0.0.1:27017/blog'</span>);</span><br><span class="line"><span class="keyword">var</span> User = <span class="keyword">new</span> mongoose.Schema (&#123;</span><br><span class="line">	name:<span class="built_in">String</span>,</span><br><span class="line">	email:<span class="built_in">String</span>,</span><br><span class="line">	age:<span class="built_in">String</span>,</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> myModel = mongoose.model(<span class="string">'user'</span>, User);</span><br><span class="line"><span class="comment">/* GET home page. */</span></span><br><span class="line">router.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res, next</span>) </span>&#123;</span><br><span class="line">	myModel.findOne(&#123;<span class="attr">name</span>:<span class="string">"Lisa"</span>&#125;, <span class="function"><span class="keyword">function</span> (<span class="params">err, user</span>)</span>&#123;</span><br><span class="line">		<span class="built_in">console</span>.log(user);</span><br><span class="line">		res.render(<span class="string">'index'</span>, &#123; <span class="attr">title</span>: <span class="string">'Express'</span>, <span class="attr">user</span>: user &#125;);</span><br><span class="line">	&#125;);</span><br><span class="line">  </span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = router;</span><br></pre></td></tr></table></figure>
+<h4 id="Modify-view-index-ejs"><a href="#Modify-view-index-ejs" class="headerlink" title="Modify view/index.ejs"></a>Modify <code>view/index.ejs</code></h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span> <span class="attr">title</span> %&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">'stylesheet'</span> <span class="attr">href</span>=<span class="string">'/stylesheets/style.css'</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span> <span class="attr">title</span> %&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Name:  <span class="tag">&lt;<span class="name">%=</span> <span class="attr">user.name</span> %&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Email: <span class="tag">&lt;<span class="name">%=</span> <span class="attr">user.email</span> %&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>Age:   <span class="tag">&lt;<span class="name">%=</span> <span class="attr">user.age</span> %&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Restart-the-server-and-you-should-see-the-result-shown-in-the-example"><a href="#Restart-the-server-and-you-should-see-the-result-shown-in-the-example" class="headerlink" title="Restart the server and you should see the result shown in the example!"></a>Restart the server and you should see the result shown in the example!</h2>
       
     </div>
 
@@ -431,172 +439,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lisachensyd.github.io/2018/06/17/sites/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Lisa Chen">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="笔记备份站">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/17/sites/" itemprop="url">
-                  有用的网站
-                </a>
-              
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
+              <a href="/2018/06/17/sites/" rel="next" title="有用的网站">
+                <i class="fa fa-chevron-left"></i> 有用的网站
+              </a>
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-06-17 16:48:21" itemprop="dateCreated datePublished" datetime="2018-06-17T16:48:21+10:00">2018-06-17</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-25 20:28:06" itemprop="dateModified" datetime="2018-07-25T20:28:06+10:00">2018-07-25</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-          IP代理cn-proxy.comtools.rosinstrument.com/proxy
-百度网盘下载Proxyee-down
-
-          
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/06/17/sites/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -606,316 +470,19 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lisachensyd.github.io/2018/06/13/linuxgymchapter1/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Lisa Chen">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="笔记备份站">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/13/linuxgymchapter1/" itemprop="url">
-                  LinuxGym Chapter 1
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-06-13 23:52:02" itemprop="dateCreated datePublished" datetime="2018-06-13T23:52:02+10:00">2018-06-13</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-06-17 02:23:36" itemprop="dateModified" datetime="2018-06-17T02:23:36+10:00">2018-06-17</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          1. Create a fileCreate a file called “hello.world” (without the quotes).1touch hello.world
-2. Create a directoryCreate a directory called “otherworld” (without the quotes) within your ch1-fdr director
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/06/13/linuxgymchapter1/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+    <div class="post-spread">
       
     </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://lisachensyd.github.io/2018/06/13/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Lisa Chen">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="笔记备份站">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/13/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-06-13 23:20:23" itemprop="dateCreated datePublished" datetime="2018-06-13T23:20:23+10:00">2018-06-13</time>
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/06/13/hello-world/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -936,8 +503,17 @@ Quick
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1004,6 +580,22 @@ Quick
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#A-simple-example-of-Express-MongoDb"><span class="nav-number">1.</span> <span class="nav-text">A simple example of Express + MongoDb</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.1.</span> <span class="nav-text">Introduction</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Example"><span class="nav-number">1.2.</span> <span class="nav-text">Example</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Install-node-js-and-npm"><span class="nav-number">1.3.</span> <span class="nav-text">1. Install node.js and npm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-Install-MongoDb"><span class="nav-number">1.4.</span> <span class="nav-text">2. Install MongoDb</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Start-the-MongoDb-server-and-client"><span class="nav-number">1.5.</span> <span class="nav-text">3. Start the MongoDb server and client</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Start-the-server-using"><span class="nav-number">1.5.0.1.</span> <span class="nav-text">Start the server using*</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Start-the-client-using"><span class="nav-number">1.5.0.2.</span> <span class="nav-text">Start the client using*</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Run-these-commands-in-two-separate-command-window"><span class="nav-number">1.5.0.2.1.</span> <span class="nav-text">Run these commands in two separate command window.</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Create-and-insert-data-into-the-database"><span class="nav-number">1.6.</span> <span class="nav-text">4. Create and insert data into the database</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-Install-express-using-npm-and-generate-a-project"><span class="nav-number">1.7.</span> <span class="nav-text">5. Install express using npm and generate a project</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-Install-Mongoose"><span class="nav-number">1.8.</span> <span class="nav-text">6. Install Mongoose</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-Connect-Express-with-MongoDb"><span class="nav-number">1.9.</span> <span class="nav-text">6. Connect Express with MongoDb</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Modify-routes-index-js"><span class="nav-number">1.9.0.1.</span> <span class="nav-text">Modify routes/index.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Modify-view-index-ejs"><span class="nav-number">1.9.0.2.</span> <span class="nav-text">Modify view/index.ejs</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Restart-the-server-and-you-should-see-the-result-shown-in-the-example"><span class="nav-number">1.10.</span> <span class="nav-text">Restart the server and you should see the result shown in the example!</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1140,6 +732,10 @@ Quick
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
